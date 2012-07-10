@@ -2,6 +2,6 @@
 _layout: sitemap
 _template: sitemap
 _type: rss
-folder: 
+folder:
 ---
 THIS IS THE FEED PAGE

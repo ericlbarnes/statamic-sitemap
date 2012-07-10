@@ -1,26 +1,16 @@
 {{ entries:listing folder="blog" limit="1000" }}
 	<url>
-
-      <loc>{{ _site_url }}{{ url }}</loc>
-
-      <lastmod>{{ datestamp format="Y-m-d" }}</lastmod>
-
-      <changefreq>monthly</changefreq>
-
-      <priority>0.8</priority>
-
-   </url>
+		<loc>{{ _site_url }}{{ url }}</loc>
+		<lastmod>{{ datestamp format="Y-m-d" }}</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
 {{ /entries:listing }}
 {{ nav from="/" exclude="/blog"}}
 	<url>
-
-      <loc>{{ _site_url }}{{ url }}</loc>
-
-      <lastmod>2012-07-09</lastmod>
-
-      <changefreq>monthly</changefreq>
-
-      <priority>0.8</priority>
-
-   </url>
+		<loc>{{ _site_url }}{{ url }}</loc>
+		<lastmod>2012-07-09</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
 {{ /nav }}
